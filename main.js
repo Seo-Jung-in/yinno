@@ -162,6 +162,29 @@ contactForm.addEventListener('submit', (e) => {
   }, 1200);
 });
 
+// ---- FAQ Accordion ----
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const answer = item.querySelector('.faq-a');
+    const isOpen = item.classList.contains('open');
+
+    // Close all
+    document.querySelectorAll('.faq-item.open').forEach(openItem => {
+      openItem.classList.remove('open');
+      openItem.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+      openItem.querySelector('.faq-a').hidden = true;
+    });
+
+    // Open clicked (if it was closed)
+    if (!isOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+      answer.hidden = false;
+    }
+  });
+});
+
 // ---- Smooth scroll for anchor links ----
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', (e) => {
