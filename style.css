@@ -1,4 +1,4 @@
-/* ===========================
+﻿/* ===========================
    Y-INNO Corporate Website
    Modern CSS — 2025 Trend
 =========================== */
@@ -7,10 +7,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary: #0062FF;
-  --primary-dark: #0040CC;
-  --primary-light: #4D96FF;
-  --accent: #00C9A7;
+  --primary: #8B1A2F;
+  --primary-dark: #5E1020;
+  --primary-light: #BF3B52;
+  --accent: #C9922A;
   --dark: #0A0F1E;
   --dark2: #111827;
   --mid: #1E2A3B;
@@ -120,12 +120,12 @@ ul { list-style: none; }
 .btn-primary {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(0, 98, 255, 0.35);
+  box-shadow: 0 4px 20px rgba(139, 26, 47, 0.35);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 98, 255, 0.5);
+  box-shadow: 0 8px 30px rgba(139, 26, 47, 0.5);
 }
 
 .btn-ghost {
@@ -363,8 +363,8 @@ ul { list-style: none; }
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(0, 98, 255, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 98, 255, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(139, 26, 47, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 26, 47, 0.06) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%);
 }
@@ -394,7 +394,7 @@ ul { list-style: none; }
 
 .orb3 {
   width: 250px; height: 250px;
-  background: radial-gradient(circle, #7C3AED 0%, transparent 70%);
+  background: radial-gradient(circle, #B45309 0%, transparent 70%);
   top: 40%; left: 30%;
   animation-delay: -6s;
   opacity: 0.15;
@@ -418,8 +418,8 @@ ul { list-style: none; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(0, 98, 255, 0.15);
-  border: 1px solid rgba(0, 98, 255, 0.3);
+  background: rgba(139, 26, 47, 0.15);
+  border: 1px solid rgba(139, 26, 47, 0.3);
   border-radius: 50px;
   padding: 8px 20px;
   font-size: 0.85rem;
@@ -608,8 +608,8 @@ ul { list-style: none; }
 .about-card {
   width: 340px; height: 340px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, rgba(0,98,255,0.15) 0%, rgba(0,201,167,0.05) 60%, transparent 100%);
-  border: 1px solid rgba(0, 98, 255, 0.25);
+  background: radial-gradient(ellipse at center, rgba(139,26,47,0.15) 0%, rgba(201,146,42,0.05) 60%, transparent 100%);
+  border: 1px solid rgba(139, 26, 47, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -618,8 +618,8 @@ ul { list-style: none; }
 }
 
 @keyframes rotateRing {
-  from { box-shadow: 0 0 0 1px rgba(0,98,255,0.1) inset; }
-  to { box-shadow: 0 0 0 1px rgba(0,98,255,0.1) inset; }
+  from { box-shadow: 0 0 0 1px rgba(139,26,47,0.1) inset; }
+  to { box-shadow: 0 0 0 1px rgba(139,26,47,0.1) inset; }
 }
 
 .about-card-inner {
@@ -645,13 +645,13 @@ ul { list-style: none; }
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   background: linear-gradient(135deg, var(--primary-light), var(--accent));
-  box-shadow: 0 0 20px rgba(0,98,255,0.6);
+  box-shadow: 0 0 20px rgba(139,26,47,0.6);
 }
 
 .atom-1, .atom-2, .atom-3, .atom-4 {
   width: 14px; height: 14px;
-  background: rgba(0, 98, 255, 0.8);
-  box-shadow: 0 0 12px rgba(0,98,255,0.5);
+  background: rgba(139, 26, 47, 0.8);
+  box-shadow: 0 0 12px rgba(139,26,47,0.5);
 }
 
 .atom-1 { top: 0; left: 50%; transform: translateX(-50%); animation: orbit1 4s linear infinite; }
@@ -671,7 +671,7 @@ ul { list-style: none; }
 
 .bond-1, .bond-2, .bond-3, .bond-4 {
   position: absolute;
-  background: rgba(0,98,255,0.3);
+  background: rgba(139,26,47,0.3);
   top: 50%; left: 50%;
   height: 1px;
   transform-origin: left center;
@@ -735,10 +735,10 @@ ul { list-style: none; }
 
 .feature-card:hover::before { opacity: 1; }
 
-.feature-card:nth-child(1)::before { background: linear-gradient(90deg, #0062FF, #4D96FF); }
-.feature-card:nth-child(2)::before { background: linear-gradient(90deg, #00C9A7, #0062FF); }
+.feature-card:nth-child(1)::before { background: linear-gradient(90deg, #8B1A2F, #BF3B52); }
+.feature-card:nth-child(2)::before { background: linear-gradient(90deg, #C9922A, #8B1A2F); }
 .feature-card:nth-child(3)::before { background: linear-gradient(90deg, #F59E0B, #EF4444); }
-.feature-card:nth-child(4)::before { background: linear-gradient(90deg, #10B981, #00C9A7); }
+.feature-card:nth-child(4)::before { background: linear-gradient(90deg, #10B981, #C9922A); }
 
 .feature-icon-wrap {
   width: 56px; height: 56px;
@@ -751,8 +751,8 @@ ul { list-style: none; }
 
 .feature-icon-wrap svg { width: 28px; height: 28px; }
 
-.protection { background: rgba(0, 98, 255, 0.15); color: var(--primary-light); }
-.uniform { background: rgba(0, 201, 167, 0.15); color: var(--accent); }
+.protection { background: rgba(139, 26, 47, 0.15); color: var(--primary-light); }
+.uniform { background: rgba(201, 146, 42, 0.15); color: var(--accent); }
 .electric { background: rgba(245, 158, 11, 0.15); color: #F59E0B; }
 .bio { background: rgba(16, 185, 129, 0.15); color: #10B981; }
 
@@ -808,7 +808,7 @@ ul { list-style: none; }
 .type-card:hover {
   border-color: var(--primary);
   transform: translateY(-4px);
-  box-shadow: 0 8px 40px rgba(0, 98, 255, 0.2);
+  box-shadow: 0 8px 40px rgba(139, 26, 47, 0.2);
 }
 
 .type-badge {
@@ -896,11 +896,11 @@ ul { list-style: none; }
 
 .industry-icon svg { width: 26px; height: 26px; }
 
-.electronics { background: rgba(0, 98, 255, 0.15); color: var(--primary-light); }
+.electronics { background: rgba(139, 26, 47, 0.15); color: var(--primary-light); }
 .biomedical { background: rgba(16, 185, 129, 0.15); color: #10B981; }
 .display { background: rgba(139, 92, 246, 0.15); color: #A78BFA; }
 .automotive { background: rgba(245, 158, 11, 0.15); color: #F59E0B; }
-.aerospace { background: rgba(0, 201, 167, 0.15); color: var(--accent); }
+.aerospace { background: rgba(201, 146, 42, 0.15); color: var(--accent); }
 .industrial { background: rgba(239, 68, 68, 0.15); color: #F87171; }
 
 .industry-card h3 {
@@ -947,7 +947,7 @@ ul { list-style: none; }
 
 .process-item:hover {
   border-color: var(--primary);
-  box-shadow: 0 4px 30px rgba(0,98,255,0.15);
+  box-shadow: 0 4px 30px rgba(139,26,47,0.15);
 }
 
 .process-arrow {
@@ -964,7 +964,7 @@ ul { list-style: none; }
   font-family: var(--font-en);
   font-size: 2.5rem;
   font-weight: 800;
-  color: rgba(0,98,255,0.2);
+  color: rgba(139,26,47,0.2);
   line-height: 1;
   margin-bottom: 16px;
 }
@@ -1079,7 +1079,7 @@ ul { list-style: none; }
 .form-group select:focus,
 .form-group textarea:focus {
   border-color: var(--primary);
-  background: rgba(0,98,255,0.06);
+  background: rgba(139,26,47,0.06);
 }
 
 .form-group select option { background: var(--dark2); }
@@ -1090,8 +1090,8 @@ ul { list-style: none; }
   display: none;
   margin-top: 16px;
   padding: 16px;
-  background: rgba(0,201,167,0.1);
-  border: 1px solid rgba(0,201,167,0.3);
+  background: rgba(201,146,42,0.1);
+  border: 1px solid rgba(201,146,42,0.3);
   border-radius: var(--radius-sm);
   color: var(--accent);
   font-size: 0.9rem;
@@ -1194,7 +1194,7 @@ ul { list-style: none; }
   transform: translateY(16px);
   transition: all var(--transition);
   z-index: 90;
-  box-shadow: 0 4px 20px rgba(0,98,255,0.4);
+  box-shadow: 0 4px 20px rgba(139,26,47,0.4);
 }
 
 .back-to-top.show {
@@ -1239,8 +1239,8 @@ ul { list-style: none; }
 
 [data-theme="light"] .hero-grid {
   background-image:
-    linear-gradient(rgba(0, 98, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 98, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(139, 26, 47, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 26, 47, 0.04) 1px, transparent 1px);
 }
 
 [data-theme="light"] .hero-orb { opacity: 0.10; }
@@ -1265,16 +1265,16 @@ ul { list-style: none; }
 }
 
 [data-theme="light"] .about-card {
-  background: radial-gradient(ellipse at center, rgba(0,98,255,0.08) 0%, rgba(0,201,167,0.03) 60%, transparent 100%);
-  border-color: rgba(0, 98, 255, 0.18);
+  background: radial-gradient(ellipse at center, rgba(139,26,47,0.08) 0%, rgba(201,146,42,0.03) 60%, transparent 100%);
+  border-color: rgba(139, 26, 47, 0.18);
 }
 
 [data-theme="light"] .process-item:hover {
-  box-shadow: 0 4px 30px rgba(0, 98, 255, 0.10);
+  box-shadow: 0 4px 30px rgba(139, 26, 47, 0.10);
 }
 
 [data-theme="light"] .process-num {
-  color: rgba(0, 98, 255, 0.14);
+  color: rgba(139, 26, 47, 0.14);
 }
 
 [data-theme="light"] .form-group input,
