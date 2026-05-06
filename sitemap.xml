@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 홈페이지 (최우선) -->
+  <url>
+    <loc>https://www.y-inno.com/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.y-inno.com/"/>
+    <image:image>
+      <image:loc>https://www.y-inno.com/og-image.jpg</image:loc>
+      <image:title>Y-INNO 파릴렌 CVD 코팅 전문기업 주식회사 와인</image:title>
+      <image:caption>경남 창원 SK테크노파크 파릴렌(Parylene) CVD 코팅 전문기업</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 회사 소개 섹션 앵커 -->
+  <url>
+    <loc>https://www.y-inno.com/#about</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 파릴렌 기술 섹션 앵커 -->
+  <url>
+    <loc>https://www.y-inno.com/#parylene</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 파릴렌 유형 섹션 앵커 -->
+  <url>
+    <loc>https://www.y-inno.com/#types</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 산업 분야 섹션 앵커 -->
+  <url>
+    <loc>https://www.y-inno.com/#industries</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 문의 섹션 앵커 -->
+  <url>
+    <loc>https://www.y-inno.com/#contact</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

@@ -43,14 +43,18 @@ const mobileLinks = document.querySelectorAll('.mobile-link');
 
 function openNav() {
   mobileNav.classList.add('open');
+  mobileNav.setAttribute('aria-hidden', 'false');
   overlay.classList.add('show');
   document.body.style.overflow = 'hidden';
+  hamburger.setAttribute('aria-expanded', 'true');
 }
 
 function closeNav() {
   mobileNav.classList.remove('open');
+  mobileNav.setAttribute('aria-hidden', 'true');
   overlay.classList.remove('show');
   document.body.style.overflow = '';
+  hamburger.setAttribute('aria-expanded', 'false');
 }
 
 hamburger.addEventListener('click', openNav);

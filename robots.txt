@@ -1,0 +1,28 @@
+# robots.txt — Y-INNO (주식회사 와인)
+# https://www.y-inno.com/robots.txt
+
+# 모든 크롤러 허용
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Google 크롤러
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# 네이버 크롤러 (Yeti)
+User-agent: Yeti
+Allow: /
+Crawl-delay: 1
+
+# 빙(Bing) 크롤러
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# 사이트맵 위치
+Sitemap: https://www.y-inno.com/sitemap.xml
