@@ -1,5 +1,5 @@
 /* ===========================
-   Y-INNO — main.js (Multi-Page)
+   Y-IN — main.js (Multi-Page)
 =========================== */
 
 // ---- Theme Toggle ----
