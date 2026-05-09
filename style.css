@@ -23,8 +23,8 @@
   --radius: 16px;
   --radius-sm: 10px;
   --shadow: 0 4px 40px rgba(0,0,0,0.4);
-  --font-kr: 'Noto Sans KR', sans-serif;
-  --font-en: 'Inter', sans-serif;
+  --font-kr: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-en: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
